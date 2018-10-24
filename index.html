@@ -1,208 +1,46 @@
 <!DOCTYPE html>
-<html>
-<title>TITEL</title>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <style>
-  @import "compass/css3";
-
-  body {
-    background-color : #C20114;
-    font-family: 'Montserrat', sans-serif;  }
-    .center {
-      text-align: center;
-      margin-bottom: 0px;
-    }
-    @keyframes color-fade {
-
-      0%   { background-color: #EE6352; }
-      50%  { background-color: #C32F27; }
-      100% { background-color: #A31621; }
-    }
-
-    .flex-column {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-
-      -ms-box-orient: horizontal;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -moz-flex;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-direction: column;
-      flex-direction: column;
-      float: left;
-      width: 100%;
-    }
-
-    .flex-column-item {
-
-    }
-
-    .wrapper {
-      padding: 0px;
-      margin: 0;
-      list-style: none;
-
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-
-      -webkit-flex-flow: row wrap;
-      justify-content: space-around;
-      font-family: 'Montserrat', sans-serif;
-
-    }
-
-    .flex-item {
-      background: #EE6352;
-      padding: 0px;
-      width: 250px;
-      height: 150px;
-      margin-top: 0px;
-      border-radius: 15px;
-      vertical-align: middle;
-      line-height: 150px;
-      color: white;
-      border-color: #F3A712;
-      border-style: double;
-      border-width: thick;
-      font-size: 3em;
-      text-align: center;
-    }
-
-    .flex-item:hover {
-      animation : color-fade 5s ease-out;
-      animation-direction: normal; /* or: normal */
-
-    }
-
-
-    /* BILLEDE */
-    img {
-      height: 500px;
-      display: block;
-      margin-top: 0px;
-      margin-bottom: 50px;
-      margin-left: auto;
-      margin-right: auto;
-      border-style: outset;
-    }
-
-    /* Overskrift */
-    h1 {
-      color : #48A306;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 4em;
-      padding-bottom: 0px;
-
-    }
-
-    li {
-      float : left;
-      display: table;
-      border-collapse:collapse;
-
-
-    }
-
-    li a {
-      display: inline-block;
-      color: #58913A;
-      text-align: center;
-      margin-left: 0px;
-      vertical-align: middle;
-      text-decoration : none;
-      font-size: 2em;
-      line-height: 100px;
-      padding: 0px 50px;
-      border-collapse:collapse;
-
-
-    }
-
-    li a:hover {
-      background-color: #000000;
-    }
-  </style>
-
-
-    </head>
-
-    <body>
-
-        <div class="center">
-          <h1><b>STØT JF (Jacques fonden) OG GØR HAM GLAD</b></h1>
-        </div>
-
-        <img id="myImage" src="hej.jpg" class="w3-circle" alt="Horses">
-
-        <div class="wrapper">
-          <button class="flex-item" onclick="window.location.href='https://www.gofundme.com/stt-du-far-en-2-timer-med-mig'">STØT!</button>
-          
-
-        </div>
-      </div>
-    </body>
-    </html>
-
-<body>
-  
-  <html>
-<head>
-<title>Falling Snow Example | kirupa.com</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-    background-color: #C20114;
-    padding: 30px;
-    margin: 0px;
-}
-#snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-.snowflake {
-    padding-left: 15px;
-    font-family: Cambria, Georgia, serif;
-    font-size: 14px;
-    line-height: 24px;
-    position: fixed;
-    color: #FFFFFF;
-    user-select: none;
-    z-index: 1000;
-}
-.snowflake:hover {
-    cursor: default;
-}
-
-p, ol {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
-    font-size: 24px;
-    color: #CCC;
-}
-li {
-    margin-bottom: 24px;
-    padding-left: 10px;
-}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 </style>
-</head>
 <body>
- 
-<div id="snowflakeContainer">
-    <p class="snowflake">*</p>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <div class="w3-dropdown-hover w3-hide-small">
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      </div>
+    </div>
+  </div>
 </div>
-<div id="content">
-</div>
-<script src="//www.kirupa.com/js/fallingsnow_v6.js"></script>
-<script src="//www.kirupa.com/js/prefixfree.min.js"></script>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">BEDRE SKOLE I AFRIKA</h2>
+    <p class="w3-opacity"><i>Problemet</i></p>
+    <p class="w3-justify">Problemet her </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Billede1</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Billede2</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Billede3</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+</script>
 </body>
- 
 </html>
